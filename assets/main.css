@@ -24,6 +24,16 @@ body{
 .hero a{
     color: var(--primaryColor);
 }
+
+.slider .carousel-indicators [data-bs-target]{
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primaryColor);
+}
+.testinomial img{
+    width: 100px;
+    height: 100px;
+}
 .about, 
 .portfolio{
     background-image: url(./../assets/img/AboutBG.jpg);

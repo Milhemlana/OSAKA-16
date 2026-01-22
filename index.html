@@ -12,7 +12,7 @@
  <link rel="stylesheet" href="./assets/main.css" >
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg position-fixed w-100 ">
+    <nav class="navbar navbar-expand-lg position-fixed w-100 z-3">
   <div class="container-fluid">
     <a class="navbar-brand text-white" href="#">OSAKA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,37 @@
   </div>
 </nav>
 <main>
+
+  <section class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/img/portfolio/3Dmodel.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/portfolio/appDesign.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/portfolio/branding.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section>
+
+
 <section class="hero vh-100 ">
   <div class="container h-100">
    <div class="hero-contents h-100 d-flex flex-column justify-content-center">
@@ -73,7 +104,7 @@
         <img src="./assets/img/me.jpg" class="img-fluid" />
       </div>
 
-      <div class="col-md-7 offset-1 ">
+      <div class="col-md-7 offset-md-1 ">
         <div class="about-details d-flex flex-column justify-content-center h-100 gap-3"> 
           <h3 class="fw-bold">Robin Steel</h3>
         <h4 class="text__primary fs-3">Creative UI/UX Designer, Developer.</h4>
@@ -88,6 +119,51 @@
     </div>
   </div>
 </section>
+
+<section class="testimonials py-5 text-center">
+  <div class="title text-center mb-5">
+    <h2 class="fs-1 fw-bold text-uppercase">Testinomial</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+
+  <div class="container">
+
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item  gap-2 active" data-bs-interval="5000">
+      <div class="testinomial">
+      <img src="./assets/img/testinomials/testinomial.jpg"  class="img-thumbnail rounded-circle" />
+      <h2>Lana Melhem</h2>
+      <h3>Front End Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, natus.</p>
+    </div>
+
+    </div>
+    <div class="carousel-item  gap-2 " data-bs-interval="5000">
+      <div class="testinomial">
+      <img src="./assets/img/testinomials/testinomial.jpg"  class="img-thumbnail rounded-circle" />
+      <h2>Tariq Shreem</h2>
+      <h3>Full Stack Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, natus.</p>
+    </div>
+
+    </div>
+    <div class="carousel-item  gap-2 " data-bs-interval="5000">
+      <div class="testinomial">
+      <img src="./assets/img/testinomials/testinomial.jpg"  class="img-thumbnail rounded-circle" />
+      <h2>Mohamed Ali</h2>
+      <h3>Front End Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, natus.</p>
+    </div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+</section>
+
+
 <section class="portfolio py-5">
   <div class="title text-center mb-5">
     <h2 class="fs-1 fw-bold text-uppercase">Portfolio</h2>
